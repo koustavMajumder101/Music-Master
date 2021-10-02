@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Roboto Condensed;
+  src: url(assets/RobotoCondensed-Light.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: Economica Bold;
+  src: url(assets/Economica-Bold.ttf);
+}
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5%;
+  font-family: Roboto Condensed;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Economica Bold;
+}
+hr {
+  width: 70px;
+}
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.button {
+  border-radius: 4px;
+  background-color: #4ba341;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 130px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  right: 0;
+  transition: all 0.3s;
+  background-color: #175c10;
+}
+.btn {
+  border-radius: 4px;
+  background-color: #0c166e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  margin: 5px;
+}
+.btn:hover {
+  background-color: rgb(56, 109, 3);
+  color: #ffffff;
+}
+.track {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.track-image {
+  width: 250px;
+  height: 250px;
+}
+
+.track-text {
+  position: absolute;
+  width: 250px;
+  bottom: 0px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.track-icon {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  padding: 10px;
+  opacity: 0.8;
+}
